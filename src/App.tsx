@@ -9,7 +9,6 @@ function App() {
       <header className="bg-white border-b px-4 py-3 flex items-center justify-between">
         <div className="flex items-center gap-2">
           <h1 className="text-xl font-semibold text-gray-800">Cancer Analytics Dashboard</h1>
-          <span className="text-sm text-blue-600">View the original report in the Power BI Community</span>
         </div>
         <select className="border rounded px-3 py-1">
           <option>All</option>
@@ -36,32 +35,38 @@ function App() {
               <p className="text-center text-gray-700 font-medium mb-4">CANCER EVENTS INDEX - 2017</p>
               <div className="flex justify-between items-center space-x-2">
                 <div className="flex flex-col items-center">
-                  <div className="w-16 h-4 bg-gray-300"></div>
                   <span className="text-xs mt-1">Below 5K</span>
+                  <div className="w-16 h-4 bg-gray-300"></div>
+                  
                 </div>
                 <div className="flex flex-col items-center">
+                   <span className="text-xs mt-1">5K - 10K</span>
                   <div className="w-16 h-4 bg-pink-300"></div>
-                  <span className="text-xs mt-1">5K - 10K</span>
                 </div>
                 <div className="flex flex-col items-center">
-                  <div className="w-16 h-4 bg-pink-400"></div>
                   <span className="text-xs mt-1">11K - 20K</span>
+                  <div className="w-16 h-4 bg-pink-400"></div>
+                  
                 </div>
                 <div className="flex flex-col items-center">
-                  <div className="w-16 h-4 bg-pink-500"></div>
                   <span className="text-xs mt-1">21K - 30K</span>
+                  <div className="w-16 h-4 bg-pink-500"></div>
+                  
                 </div>
                 <div className="flex flex-col items-center">
+                   <span className="text-xs mt-1">31K - 45K</span>
                   <div className="w-16 h-4 bg-pink-600"></div>
-                  <span className="text-xs mt-1">31K - 45K</span>
+                 
                 </div>
                 <div className="flex flex-col items-center">
-                  <div className="w-16 h-4 bg-pink-800"></div>
                   <span className="text-xs mt-1">46K - 60K</span>
+                  <div className="w-16 h-4 bg-pink-800"></div>
+                  
                 </div>
                 <div className="flex flex-col items-center">
+                   <span className="text-xs mt-1">Above 60K</span>
                   <div className="w-16 h-4 bg-black"></div>
-                  <span className="text-xs mt-1">Above 60K</span>
+                 
                 </div>
               </div>
             </div>
@@ -121,15 +126,15 @@ function App() {
                   <div>
                     <p className="text-sm text-gray-500 mb-1">INCIDENTS</p>
                     <div className="h-4 flex rounded overflow-hidden">
-                      <div className="bg-indigo-900 w-[50.91%] text-[10px] text-white text-right pr-1 leading-4">50.91%</div>
-                      <div className="bg-orange-400 w-[49.09%] text-[10px] text-white pl-1 leading-4">49.09%</div>
+                      <div className="bg-indigo-900 w-[50.91%] text-[10px] text-white text-right pr-1 leading-4">49.90%</div>
+                      <div className="bg-orange-400 w-[49.09%] text-[10px] text-white pl-1 leading-4">50.91%</div>
                     </div>
                   </div>
                   <div>
                     <p className="text-sm text-gray-500 mb-1">MORTALITY</p>
                     <div className="h-4 flex rounded overflow-hidden">
-                      <div className="bg-indigo-900 w-[52.13%] text-[10px] text-white text-right pr-1 leading-4">52.13%</div>
-                      <div className="bg-orange-400 w-[47.87%] text-[10px] text-white pl-1 leading-4">47.87%</div>
+                      <div className="bg-indigo-900 w-[52.13%] text-[10px] text-white text-right pr-1 leading-4">47.87%</div>
+                      <div className="bg-orange-400 w-[47.87%] text-[10px] text-white pl-1 leading-4">52.13%</div>
                     </div>
                   </div>
                 </div>
@@ -144,15 +149,15 @@ function App() {
                   <div>
                     <p className="text-sm text-gray-500 mb-1">INCIDENTS</p>
                     <div className="h-4 flex rounded overflow-hidden">
-                      <div className="bg-indigo-900 w-[50.91%] text-[10px] text-white text-right pr-1 leading-4">50.91%</div>
-                      <div className="bg-orange-400 w-[49.09%] text-[10px] text-white pl-1 leading-4">49.09%</div>
+                      <div className="bg-indigo-900 w-[50.91%] text-[10px] text-white text-right pr-1 leading-4">49.09%</div>
+                      <div className="bg-orange-400 w-[49.09%] text-[10px] text-white pl-1 leading-4">50.91%</div>
                     </div>
                   </div>
                   <div>
                     <p className="text-sm text-gray-500 mb-1">MORTALITY</p>
                     <div className="h-4 flex rounded overflow-hidden">
-                      <div className="bg-indigo-900 w-[52.13%] text-[10px] text-white text-right pr-1 leading-4">52.13%</div>
-                      <div className="bg-orange-400 w-[47.87%] text-[10px] text-white pl-1 leading-4">47.87%</div>
+                      <div className="bg-indigo-900 w-[52.13%] text-[10px] text-white text-right pr-1 leading-4">47.87%</div>
+                      <div className="bg-orange-400 w-[47.87%] text-[10px] text-white pl-1 leading-4">52.13%</div>
                     </div>
                   </div>
                 </div>
