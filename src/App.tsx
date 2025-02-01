@@ -126,15 +126,17 @@ function App() {
                   <div>
                     <p className="text-sm text-gray-500 mb-1">INCIDENTS</p>
                     <div className="h-4 flex rounded overflow-hidden">
-                      <div className="bg-indigo-900 w-[50.91%] text-[10px] text-white text-right pr-1 leading-4">49.90%</div>
-                      <div className="bg-orange-400 w-[49.09%] text-[10px] text-white pl-1 leading-4">50.91%</div>
+                      <div className="bg-orange-400 w-[49.09%] text-[10px] text-white pl-1 leading-4">49.09%</div>
+                      <div className="bg-indigo-900 w-[50.91%] text-[10px] text-white text-right pr-1 leading-4">50.91%</div>
+                      
                     </div>
                   </div>
                   <div>
                     <p className="text-sm text-gray-500 mb-1">MORTALITY</p>
                     <div className="h-4 flex rounded overflow-hidden">
-                      <div className="bg-indigo-900 w-[52.13%] text-[10px] text-white text-right pr-1 leading-4">47.87%</div>
-                      <div className="bg-orange-400 w-[47.87%] text-[10px] text-white pl-1 leading-4">52.13%</div>
+                      <div className="bg-orange-400 w-[47.87%] text-[10px] text-white pl-1 leading-4">47.87%</div>
+                      <div className="bg-indigo-900 w-[52.13%] text-[10px] text-white text-right pr-1 leading-4">52.13%</div>
+                      
                     </div>
                   </div>
                 </div>
@@ -149,15 +151,17 @@ function App() {
                   <div>
                     <p className="text-sm text-gray-500 mb-1">INCIDENTS</p>
                     <div className="h-4 flex rounded overflow-hidden">
-                      <div className="bg-indigo-900 w-[50.91%] text-[10px] text-white text-right pr-1 leading-4">49.09%</div>
-                      <div className="bg-orange-400 w-[49.09%] text-[10px] text-white pl-1 leading-4">50.91%</div>
+                      <div className="bg-orange-400 w-[49.09%] text-[10px] text-white pl-1 leading-4">49.09%</div>
+                      <div className="bg-indigo-900 w-[50.91%] text-[10px] text-white text-right pr-1 leading-4">50.91%</div>
+                      
                     </div>
                   </div>
                   <div>
                     <p className="text-sm text-gray-500 mb-1">MORTALITY</p>
                     <div className="h-4 flex rounded overflow-hidden">
-                      <div className="bg-indigo-900 w-[52.13%] text-[10px] text-white text-right pr-1 leading-4">47.87%</div>
-                      <div className="bg-orange-400 w-[47.87%] text-[10px] text-white pl-1 leading-4">52.13%</div>
+                      
+                      <div className="bg-orange-400 w-[47.87%] text-[10px] text-white pl-1 leading-4">47.87%</div>
+                      <div className="bg-indigo-900 w-[52.13%] text-[10px] text-white text-right pr-1 leading-4">52.13%</div>
                     </div>
                   </div>
                 </div>
